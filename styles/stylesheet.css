@@ -7,6 +7,25 @@
   display: flex;
   flex-direction: row;
   border-style: solid;
+  margin-bottom: 2rem;
 
 
+}
+
+.map {
+
+  flex-grow: 1;
+  border-style: solid;
+
+}
+
+.address {
+
+  flex-grow: 1;
+  border-style: solid;
+
+}
+
+.address p {
+  color: blue;
 }
