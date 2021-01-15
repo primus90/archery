@@ -29,3 +29,18 @@
 .address p {
   color: blue;
 }
+
+.grid-schedule {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  background-color: lightgrey;
+  padding: 2rem;
+  border-style: solid;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 1rem;
+  text-align: center;
+}
