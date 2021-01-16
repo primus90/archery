@@ -1,0 +1,115 @@
+<style>
+
+    #project-title {
+      color: red;
+      text-align: center;
+      font-size: large;
+    }
+
+    h1 {
+      color: red;
+      font-style: oblique;
+      text-align: center;
+    }
+
+    #project-descriptor {
+      color: blue;
+      font-style: italic;
+      font-size: large;
+    }
+
+    .site-nav {
+      color: blue;
+      border-style: solid;
+      background-color: lightgrey;
+      border-width: 2px;
+      border-color: black;
+      text-align: center;
+    }
+
+    .site-p {
+      color: blue;
+      text-align: center;
+
+    }
+
+    .site-p a:hover {
+      color: green;
+    }
+
+
+
+
+
+    .footer-area {
+      text-align: right;
+    }
+
+    #project-descriptor {
+      color: green;
+      text-align: center;
+      font-family: 'Imbue', serif;
+    }
+
+    .fa-atom {
+      color: red;
+      text-align: center;
+      width: 100%;
+    }
+
+    .container {
+
+      display: flex;
+      flex-direction: row;
+      border-style: solid;
+
+
+    }
+
+    .r-box {
+      flex-grow: 1;
+      background-color: lightgrey;
+
+    }
+
+    .r-box img:hover {
+      border: solid;
+      border-color: green;
+    }
+
+    .html-box {
+      flex-grow: 1;
+      background-color: grey;
+
+    }
+
+    .html-box a:visited {color: red; font-size: 20em;}
+
+    #article-header {
+      color: red;
+      text-align: center;
+      font-size: large;
+      border-top: solid;
+      border-color: black;
+      margin-top: 5rem;
+    }
+
+    button, input, select, textarea {
+      font-family: inherit;
+      font-size: 100%;
+      box-sizing: border-box;
+      display: block;
+      margin: 1rem;
+    }
+
+    .education-level {
+      border: solid;
+      margin: 2rem;
+
+
+    }
+
+
+
+
+</style>

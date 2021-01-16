@@ -2,11 +2,45 @@
     box-sizing: border-box;
 }
 
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  display: block;
+  margin: 1rem;
+}
+
+.out-of-sight {
+  position: relative;
+  left: -10000px;
+  top: auto;
+}
+
+.out-of-sight:focus {
+  left: 0;
+}
+
+nav a {
+  padding: .5rem;
+  margin: .5rem;
+}
+
+.comment-label {
+  padding: .5rem;
+  margin: .5rem;
+
+}
+
+.contact-nav {
+  padding: .5rem;
+  margin: .5rem;
+}
+
 .container {
 
   display: flex;
   flex-direction: row;
-  border-style: solid;
+  border-style: none;
   margin-bottom: 2rem;
 
 
