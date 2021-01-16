@@ -49,19 +49,26 @@ nav a {
 .map {
 
   flex-grow: 1;
-  border-style: solid;
+  border-style: none;
 
 }
 
 .address {
 
   flex-grow: 1;
-  border-style: solid;
+
 
 }
 
 .address p {
-  color: blue;
+  color: #2424FF;
+  margin: 1rem;
+}
+
+.address a {
+  color: #2424FF;
+  margin: 1rem;
+
 }
 
 .grid-schedule {
